@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    background-image: url(bg.jpeg);
+    background-size: cover
+}
+img{
+    cursor: pointer;
+    filter: drop-shadow(10px 10px 10px );
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(222, 184, 135, 0.737);
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 37px;
+
+}
+li:hover{
+    cursor: pointer;
+    color:rgba(219, 144, 135, 0.795) ;
+}
+
+nav ul{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+#login{
+    margin: 15px 0px;
+    border-radius: 45px;
+    color: white;
+    background-color: rgba(219, 144, 135, 0.795);
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    text-shadow: 2px 2px 5px black;
+}
+.section1{
+    
+    text-align: center;
+}
+#title{
+    font-family: "Sevillana", cursive;
+    font-size: 80px;
+    margin-top: 30px;
+    color: rgb(222, 184, 135);
+    text-shadow: 2px 2px 5px black;
+}
+.section1 p{
+    color: rgb(130, 103, 68);
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+.section2 h1{
+    font-family: "Playwrite CU", cursive;
+    font-size: 50px;
+    margin-left: 80px;
+    margin-top: 50px;
+    color: rgb(219, 143, 135);
+    text-shadow: 2px 2px 5px black;
+}
+
+.music1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(222, 184, 135, 0.577);
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 20px;
+    color: white;
+}
+audio{
+    display: inline-block;
+    width: 500px;
+    height: 50px;
+}
+.music2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(222, 184, 135, 0.577);
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 20px;
+    color: white;
+}
+.music3{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(222, 184, 135, 0.577);
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 20px;
+    color: white;
+}
+
